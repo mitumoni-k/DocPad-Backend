@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import tempfile
 import os
 import shutil
-from functions import (extract_from_docx, extract_from_pdf, generate_summary_pdf)
+from server.api.functions import (extract_from_docx, extract_from_pdf, generate_summary_pdf)
 
 app = FastAPI(title="DocPad API documentation")
 
